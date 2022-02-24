@@ -1,0 +1,1 @@
+console.error("Error: Can't walk dependency graph: Cannot find module 'C:\\Users\\user\\Desktop\\FP-acadamy\\fp_exercise\\API_Exercise\\.JSfile\\index.js' from 'C:\\Users\\user\\Desktop\\FP-acadamy\\fp_exercise\\API_Exercise\\.JSfile\\_fake.js'\n    required by C:\\Users\\user\\Desktop\\FP-acadamy\\fp_exercise\\API_Exercise\\.JSfile\\_fake.js");

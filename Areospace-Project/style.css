@@ -1,0 +1,130 @@
+.carousel-inner {
+  height: 100vh;
+  margin: 0px 0px 0px 0px;
+}
+
+.containerHP{
+  display: grid;
+  position: absolute;
+  top:0;
+  padding: 0px 0px 0px 20px;
+}
+
+#HomePageName{
+  font-family: 'Black Ops One', cursive;
+  font-size: 80px;
+}
+
+.carousel-control .icon-prev, .carousel-control .icon-next {
+  color: black !important;
+}
+
+#button{
+  margin: 0px 0px 0px 0px;
+}
+
+/* design page style */
+.img-card{
+    height: 400px;
+    object-fit: contain;
+}
+
+.navbar{
+    background-color: #5452C1;
+}
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-brand {
+    color: white;
+}
+
+.overview {
+    font-family: 'Black Ops One', cursive;
+}
+
+.list-group{
+  width: 30%;
+  margin: auto;
+}
+
+.list-group-item.active {
+  background-color: #5452C1;
+  border-color: #5452C1;
+}
+
+/* ----specification page style------ */
+.speci-h1{
+  text-align: center;
+  color: red;
+}
+
+.speci-img  img{
+  width: 200px;
+  height: 250px;
+  margin-bottom: 30px;
+}
+
+.banner-specification {  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.banner-specification h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner-specification p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+/* ---------footer section----------------- */
+
+.social-links{
+  text-align: center;
+}
+
+.social-links .fa{
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  border-radius: 10px;
+  line-height: 40px;
+  border: 1px solid #960014;
+  margin: 40px 5px 0;
+  color: #91091b;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.social-links .fa:hover{
+  background: #960014;
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.social-links p{
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  #HomePageName {
+    font-size: 50px;
+  }
+
+  #button{
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #HomePageName {
+    font-size: 30px;
+  }
+}
